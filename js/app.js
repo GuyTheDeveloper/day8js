@@ -1,9 +1,5 @@
-let random = Math.round(Math.random()*1000000);
-console.log(random);
+function codeGenerator() {
+  return Math.round(Math.random() * 1000000);
+}
 
-// let radnom = function codeGenerator() {
-//     return Math.round(Math.random()*1000000);
-// }
-
-
-console.log(random);
+console.log(codeGenerator());
